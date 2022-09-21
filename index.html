@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cafe Website</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    
+    <div class="topnav" id="navbar">
+        <a href="#" class="active">Home</a>
+        <a href="#about">About</a>
+        <a href="#menu">Menu</a>
+       <a href="#where">Where</a>
+    </div>
+    <!-- -----------Header---------- -->
+    <header class="bgimg">
+        <span class="title" style="font-size: 90px;">the <br>Cafe</span>
+        <div class="bottom-text">
+            <span class="tag">Open from 6am to 5am</span>
+            <span class="address">15 Adr Street, 5015</span>
+        </div>
+    </header>
+
+    <!-- -----About Container--------- -->
+
+    <div class="about-container" id="about">
+        <div class="about-content" style="max-width: 700px;">
+            <h5><span class="tag">ABOUT THE CAFE</span></h5>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Architecto reiciendis recusandae numquam voluptate tempore nihil, magni, illo cupiditate quidem iste dolore nostrum ratione? Dolores natus illo quod impedit soluta, dolor harum maxime nulla voluptatum praesentium? Nesciunt, maxime eaque!</p><br>
+            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Saepe repellat provident nostrum consequuntur doloribus et, fuga fugiat. Fugiat eaque itaque nesciunt, numquam quasi modi, ut, molestias qui commodi veritatis dignissimos.</p><br>
+
+            <div class="panel">
+                <p><i>"Use Products that dolor sit amet consectetur adipisicing elit. Saepe repellat provident nostrum consequuntur doloribus et, fuga fugiat. Fugiat eaque itaque nesciunt, numquam quasi modi, ut, molestias qui commodi veritatis dignissimos."</i></p>
+                <p>CTO, Maxwell Arnold</p>
+            </div>
+            <img src="images.jpg" style="width: 100%; max-width: 1000px;" class="panel-img">
+            <p class="hours"><strong>Opening Hours:</strong> everyday from 6am to 5pm</p>
+            <br>
+            <p class="adr"><strong>Address: </strong>15 Adr street 5015, <span>NY</span></p>
+        </div>
+    </div>
+
+    <!-- --------Menu Container-------- -->
+    <div class="menu-container" id="menu">
+        <div class="menu-content" style="max-width: 700px;">
+        <h5><span>THE MENU</span></h5>
+
+        <div class="menu-options">
+            <a href="javascript:void(0)" onclick="openMenu(event, 'Eat');">
+                <div class="tablink" id="myLink">Eat</div>
+            </a>
+            <a href="javascript:void(0)" onclick="openMenu(event, 'Drinks');">
+            <div class="tablink">Drink</div>
+            </a>
+        </div>
+
+        <div id="eat" class="container-menu">
+            <h5>Bread Basket</h5>
+            <p class="container-text">Assortment of fresh baked fruit breads and muffins 5.50</p><br>
+
+            
+            <h5>Honey Almond Granola with Fruits</h5>
+            <p class="container-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Odit.</p><br>
+
+            <h5>Bread Basket</h5>
+            <p class="container-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Nesciunt, neque?</p><br>
+
+            <h5>Bread Basket</h5>
+            <p class="container-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Iusto, alias.</p><br>
+        </div>
+
+        <div id="Drinks" class="container-menu">
+            <h5>Coffee</h5>
+            <p class="container-text">Regular Coffee 2.50</p><br>
+
+            <h5>Chocolate</h5>
+            <p class="container-text">Chocolate espresso with milk 4.50</p><br>
+
+            <h5>Iced Tea</h5>
+            <p class="container-text">Lorem ipsum dolor sit amet consectetur.</p><br>
+
+            <h5>Soda</h5>
+            <p class="container-text">Lorem ipsum dolor, sit amet consectetur adipisicing.</p><br>
+        </div>
+        <img src="form.jpg" alt="NFT Art" style="width: 100%; max-width: 500px; margin-top: 32px;">
+        </div>
+    </div>
+
+    <!-- --------Contact Area--------- -->
+    <div class="contact-container" id="where">
+        <div class="contact-content" style="max-width: 700px;">
+            <h5><span>WHERE TO FIND US</span></h5>
+            <p class="contact-description">Find us at some address at some place</p>
+            <img src="study.jpg" style="width: 100%;">
+            <p><span>FYI</span>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. A provident et culpa nam quos iusto dolore aspernatur harum praesentium iste.
+            </p>
+            <p><strong>Reserve</strong> a table ask for todays special or just send us a message:</p>
+            <form action="" target="_blank">
+                <p>
+                    <input type="text" placeholder="Name " required name="Name">
+                </p>
+                <p>
+                    <input type="number" placeholder="How many people" required name="People">
+                </p>
+                <p>
+                    <input type="datetime-local" placeholder="Date and time " required name="date" value="2022-09-19T20:00">
+                </p>
+                <p>
+                    <input type="text" placeholder="Message \ Special requirements" required name="Message">
+                </p>
+                <p>
+                    <button type="submit">SEND MESSAGE</button>
+                </p>
+            </form>
+        </div>
+    </div>
+
+    <!-- ------------Footer------------- -->
+    <footer>
+        <p>Powered  by <a href="index.html" title="AlphaX" target="_blank">AlphaX</a></p>
+    </footer>
+    <script src="index.js"></script>
+</body>
+</html>
